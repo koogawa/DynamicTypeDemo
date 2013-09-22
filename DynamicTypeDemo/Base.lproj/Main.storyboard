@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="719" y="-411"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - UITableView-->
         <scene sceneID="DGt-nC-Il4">
             <objects>
                 <tableViewController id="oHU-e0-GpR" sceneMemberID="viewController">
@@ -59,7 +59,7 @@
                             <outlet property="delegate" destination="oHU-e0-GpR" id="I78-dl-kQy"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ZA4-KM-LM1"/>
+                    <navigationItem key="navigationItem" title="UITableView" id="ZA4-KM-LM1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jB-UN-ZFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
