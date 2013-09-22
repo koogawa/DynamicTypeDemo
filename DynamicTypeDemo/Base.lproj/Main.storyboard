@@ -34,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="-539"/>
+            <point key="canvasLocation" x="719" y="-411"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="DGt-nC-Il4">
@@ -46,7 +46,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="JsI-Lf-JUq">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JsI-Lf-JUq" id="yEr-IL-Of6">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -59,10 +59,11 @@
                             <outlet property="delegate" destination="oHU-e0-GpR" id="I78-dl-kQy"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="ZA4-KM-LM1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jB-UN-ZFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713" y="386"/>
+            <point key="canvasLocation" x="719" y="298"/>
         </scene>
         <!--Table View Controller - Dynamic Type Demo-->
         <scene sceneID="DlJ-M2-FXY">
@@ -95,15 +96,15 @@
                                             <segue destination="vXZ-lx-hvc" kind="push" id="DOy-pj-akB"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="SFD-aw-TF5" style="IBUITableViewCellStyleDefault" id="bd3-EC-cYS">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="SFD-aw-TF5" style="IBUITableViewCellStyleDefault" id="bd3-EC-cYS">
                                         <rect key="frame" x="0.0" y="108" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bd3-EC-cYS" id="Sc8-6h-BvH">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="UITableView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SFD-aw-TF5">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -111,6 +112,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oHU-e0-GpR" kind="push" id="IJS-4W-HfB"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bqB-FP-PLN">
                                         <rect key="frame" x="0.0" y="152" width="320" height="44"/>
