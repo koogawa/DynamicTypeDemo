@@ -49,10 +49,7 @@
 
 - (void)preferredContentSizeChanged:(NSNotification *)aNotification
 {
-    // adjust the layout of the cells
-    [self.view setNeedsLayout];
-    
-    // refresh view...
+    // refresh tableView
     [self.tableView reloadData];
 }
 
@@ -77,7 +74,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.imageView.image = [UIImage imageNamed:@"koogawa"];
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.text = [_textArray objectAtIndex:indexPath.row];
@@ -92,7 +88,7 @@
     NSString *text = [_textArray objectAtIndex:indexPath.row];
     UIFont *nameLabelFont = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
     
-    CGFloat PADDING_OUTER = 10;
+    CGFloat PADDING_OUTER = 30;
     CGRect totalRect = [text boundingRectWithSize:CGSizeMake(self.tableView.frame.size.width, CGFLOAT_MAX)
                                           options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading)
                                        attributes:[NSDictionary dictionaryWithObject:nameLabelFont forKey:NSFontAttributeName]
