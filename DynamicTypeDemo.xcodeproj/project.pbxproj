@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AA129117EEE8A1000084E7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA129017EEE8A1000084E7 /* TableViewController.m */; };
 		DC12F56E17E0748900B580B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12F56D17E0748900B580B2 /* Foundation.framework */; };
 		DC12F57017E0748900B580B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12F56F17E0748900B580B2 /* CoreGraphics.framework */; };
 		DC12F57217E0748900B580B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12F57117E0748900B580B2 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21AA128F17EEE8A1000084E7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		21AA129017EEE8A1000084E7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		DC12F56A17E0748900B580B2 /* DynamicTypeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC12F56D17E0748900B580B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC12F56F17E0748900B580B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				DC12F57F17E0748900B580B2 /* Main.storyboard */,
 				DC12F58217E0748900B580B2 /* ViewController.h */,
 				DC12F58317E0748900B580B2 /* ViewController.m */,
+				21AA128F17EEE8A1000084E7 /* TableViewController.h */,
+				21AA129017EEE8A1000084E7 /* TableViewController.m */,
 				DC12F58517E0748900B580B2 /* Images.xcassets */,
 				DC12F57417E0748900B580B2 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				DC12F58417E0748900B580B2 /* ViewController.m in Sources */,
 				DC12F57E17E0748900B580B2 /* AppDelegate.m in Sources */,
 				DC12F57A17E0748900B580B2 /* main.m in Sources */,
+				21AA129117EEE8A1000084E7 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
